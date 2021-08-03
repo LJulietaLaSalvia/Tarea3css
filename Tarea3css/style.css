@@ -1,0 +1,117 @@
+.nombre{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(250, 171, 140);
+    letter-spacing: 2px;
+    text-shadow: -1px 1px 0px white;
+    text-shadow: black;
+}
+
+
+.container{
+    width:80%;
+    height: 430px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+}
+
+.container .card{
+    width:330px;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    margin:20px;
+    text-align: center;
+    transition: all 0.25s;
+    cursor:pointer;
+}
+
+.container .card2{
+    width:330px;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    margin:20px;
+    text-align:left;
+    transition: all 0.25s;
+    cursor:pointer;
+}
+
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.container .card img{
+    width:330px;
+    height:260px;
+}
+
+.container .card2 img{
+    margin-top: 30px;
+    width:330px;
+    height:220px;
+}
+
+.container .card2 h4{
+    font-weight: 600;
+    text-align: center;
+    background-color: yellowgreen;
+    font-family: monospace;
+  font-size: large;
+}
+
+.container .card h4{
+    font-weight: 600;
+    text-align: center;
+    background-color:turquoise;
+    font-family: monospace;
+  font-size: large;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card2 ul{
+    padding:10% 10%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card2 ol{
+    padding:10% 10%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .extra{
+    width:100%;
+    height:auto;
+    background-color: lightyellow;
+    border:dotted 2px lightslategray;
+    border-style: dotted;
+    
+}
+
+.container .formulario{
+    width:330px;
+    height:auto;
+    border: solid 5px lightblue;
+    background-color: rgb(252, 213, 200);
+    cursor:pointer;
+}
